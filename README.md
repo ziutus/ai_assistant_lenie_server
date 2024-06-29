@@ -101,6 +101,12 @@ docker-compose.exe create
 docker-compose.exe start
 ```
 
+## Services which can use to get data
+
+| Service name | provider   | description | link |
+|-------------|------------|---|------|
+| Textract    | AWS        | PDF to text | https://aws.amazon.com/textract/     |
+| assemblyai  | assemblyai | speach to text (0,12$ per  hour) | https://www.assemblyai.com/ |
 
 ## Why do we need our own LLM?
 So far, available LLMs operate in English or implicitly translate to English, losing context or meaning.
