@@ -130,7 +130,7 @@ urllib3==2.2.2
     #   requests
 websockets==13.0.1
     # via assemblyai
-werkzeug==3.0.4
+werkzeug==3.0.6
     # via flask
 youtube-transcript-api==0.6.2
     # via -r requirements.piptools
