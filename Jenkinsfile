@@ -60,6 +60,7 @@ pipeline {
             steps {
                 script {
                     cleanWs()
+                     echo "Will get branch name: ${env.BRANCH_NAME}"
                     git credentialsId: 'github-token', url: 'https://github.com/ziutus/ai_assistant_lenie_server', branch: "${env.BRANCH_NAME}"
 
                 }
